@@ -1,0 +1,40 @@
+* {
+    border-radius: 0px !important;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    font-size: 1.2em;
+    color: #FFF;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    margin-top: -30px;
+}
+
+#previous-result tbody {
+    display: block;
+    height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#previous-result thead, #previous-result tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed; /* even columns width , fix width of table too*/
+}
+
+.userlist {
+    font-size: 20px;
+}
+
+.quiz-ques:nth-child(even) {
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
